@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListActivity">
+
+    <Button
+        android:id="@+id/btnIterator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="遍历方式" />
+
+    <Button
+        android:id="@+id/btnListConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List转换" />
+
+    <Button
+        android:id="@+id/btnMaptConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Map转换" />
+
+    <Button
+        android:id="@+id/btnListClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List合拢" />
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="过滤器" />
+
+    <Button
+        android:id="@+id/btnPartition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List划分" />
+
+    <Button
+        android:id="@+id/btnPlusMinus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加减操作符" />
+
+    <Button
+        android:id="@+id/btnSectionList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取集合一部分" />
+
+    <Button
+        android:id="@+id/btnGetSingleItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取单个元素" />
+
+    <Button
+        android:id="@+id/btnSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="排序" />
+
+    <Button
+        android:id="@+id/btnAggregation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="聚合" />
+
+</LinearLayout>

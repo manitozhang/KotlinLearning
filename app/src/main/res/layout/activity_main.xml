@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnGetMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取最大" />
+
+    <Button
+        android:id="@+id/btnIsString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="判断类型" />
+
+    <Button
+        android:id="@+id/btnDoFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="遍历" />
+
+    <Button
+        android:id="@+id/btnDoWhile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="while循环" />
+
+    <Button
+        android:id="@+id/btnUseWhen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When用法" />
+
+    <Button
+        android:id="@+id/btnDoRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Range区间用法" />
+
+    <Button
+        android:id="@+id/btnDoRangeFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Range区间遍历用法" />
+
+    <Button
+        android:id="@+id/btnDoListFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lambda 表达式来过滤（filter）与映射（map）集合" />
+
+    <Button
+        android:id="@+id/btnDoForMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="map遍历" />
+
+    <Button
+        android:id="@+id/btnPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实例化Person" />
+
+    <Button
+        android:id="@+id/btnListSizeLess1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="list扩展函数,获取长度减1" />
+
+    <Button
+        android:id="@+id/btnSamFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAM函数式接口" />
+
+    <Button
+        android:id="@+id/btnExtensionFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扩展函数" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="集合模块" />
+
+</LinearLayout>
